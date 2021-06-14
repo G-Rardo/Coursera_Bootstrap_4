@@ -4,8 +4,12 @@
   "description": "Proyecto para el curso de Diseñando páginas web con Bootstrap 4 de coursera",
   "main": "index.html",
   "scripts": {
+    "dev":"lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gerardo Larramendy",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
