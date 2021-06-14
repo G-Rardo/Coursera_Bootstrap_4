@@ -1,0 +1,11 @@
+{
+  "name": "coursera_bootstrap_4",
+  "version": "1.0.0",
+  "description": "Proyecto para el curso de Diseñando páginas web con Bootstrap 4 de coursera",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerardo Larramendy",
+  "license": "ISC"
+}
