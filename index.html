@@ -7,49 +7,98 @@
 
     <!-- Bootstrap CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <title>Página ejemplo, yay</title>
   </head>
   <body>
-    <div class="bg-light p-5 rounded-lg m-3">
+    <div class="bg-dark">
+      <div class="jumbotron p-5 rounded-lg m-3">
       <h1 class="display-4">Curso de Coursera, woo!!</h1>
     </div>
+
     <div class="container">
-      <div class="row">
+      <div class="d-flex flex-wrap bg-light p-5 rounded-lg m-3">
         <div class="col-md-4">
-          <p>Es una página de prueba</p>
+          <h1 class="display-6">Qué es esto?</h1>
+          <p class="lead">Es una página de prueba</p>
         </div>
+
         <div class="col-md-4">
-          <p>Con el único objetivo de aprender un poco de Bootstrap</p>
+          <h1 class="display-6">Con qué objetivo?</h1>
+          <p class="lead">Con el único objetivo de aprender un poco de Bootstrap</p>
         </div>
+
         <div class="col-md-4">
-          <p>Y eso, nada más XD</p>
+          <h1 class="display-6">Algo más?</h1>
+          <p class="lead">Y eso, nada más XD</p>
         </div>
-        <div class="container bg-light p-5 rounded-lg m-3">
-          <div class="row">
-            <div class="col-md-4">
+      </div>
+
+      <hr class="md-y">
+
+      
+      <div class="container bg-light p-5 rounded-lg m-3">
+        <div class="d-flex flex-wrap">
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
               <h1 class="display-6">Hotel Ejemplo</h1>
               <p class="lead">Se trata de un hotel de -3 estrellas en el que solo se paga para tener ejemplos</p>
-              <a class="btn btn-primary btn-lg" href="#" role="button">Registrarse</a> 
             </div>
-            <div class="col-md-4">
+            <div>
+              <a class="btn btn-primary btn-reserve" href="#" role="button">Registrarse</a> 
+            </div>
+          </div>
+
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
               <h1 class="display-6">Motel Ejemplo</h1>
               <p class="lead">Es un motel, ya sabes para qué sirve</p>
-              <a class="btn btn-primary btn-lg" href="#" role="button">No Registrarse</a>
             </div>
-            <div class="col-md-4">
+            <div>
+              <a class="btn btn-primary btn-reserve" href="#" role="button">Registrarse</a> 
+            </div>
+          </div>
+
+          <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
               <h1 class="display-6">Ejemplo de Hoteles</h1>
               <p class="lead">Esto no es un Hotel, esto es un ejemplo que dice Hoteles</p>
-              <a class="btn btn-primary btn-lg" href="#" role="button">Denunciar estupidez</a>
+            </div>
+            <div>
+              <a class="btn btn-primary btn-reserve" href="#" role="button">Registrarse</a> 
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    
+    <footer class="footer">
+      <div class="row">
+        <div class="col-sm-4 d-flex flex-column">
+          <a href="https://www.twitter.com/G_rardoYT">Twitter</a>
+          <a href="https://www.youtube.com/gyamym">YouTube</a>
+          <a href="https://www.instagram.com/grardo_animations/">Instagram</a>
+        </div>
+        <div class="col-sm-4">
+          <address>
+            <p>Tenkaichi Street, al lado de Poppo's Convenience Store</p>
+            <p>+5989221855548</p>
+            <p>maildeejemplo@estonoexiste.falso.com</p>
+          </address>
+        </div>
+        <div class="col-sm-4 d-flex flex-column align-items-end">
+          <a href=#>Algo</a>
+          <a href=#>Algo más</a>
+          <a href=#>Me quedé sin ideas</a>
+        </div>
+      </div>
+    </footer>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  
+  
   </body>
 </html>
